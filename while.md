@@ -185,7 +185,7 @@ while num > x:
 
 ### 2.5 while loop 
 
-[一之型 印三角形](https://neoj.sprout.tw/problem/3020/)
+[3020 印三角形](https://neoj.sprout.tw/problem/3020/)
 
 ----
 
@@ -265,7 +265,7 @@ else:
 ```python=
 flag = False
 i = 0
-while i < 6:
+while not flag:
     print(i)
     i += 2
     if i >= 6:
@@ -371,7 +371,7 @@ print(sc)
 ----
 
 ### 欲練神功，必先..
-[卍九九乘法表乂](https://neoj.sprout.tw/problem/3089/)
+[3089 卍九九乘法表乂](https://neoj.sprout.tw/problem/3089/)
 
 ---
 
@@ -391,8 +391,13 @@ print(sc)
 
 ---
 
-## 作業(?)
+## 作業
 
+----
+
+1. [3087 差太多了吧](https://neoj.sprout.tw/problem/3087/)
+2. [3019 來印三角形吧](https://neoj.sprout.tw/problem/3019/)
+3. [3031 修羅道之怪異的範圍](https://neoj.sprout.tw/problem/3031/)
 ---
 
 ## Thank you :+1: 
