@@ -17,6 +17,12 @@ slideOptions:
 
 ----
 
+溫馨提醒：投影片的程式碼可以在GitHub下載或預覽
+
+[點這裡](https://github.com/EnzoHuang0807/Sprout)
+
+----
+
 在英文中，while 是什麼意思呢?
 
 ex: <font color="blue">While Putin is invading Ukraine, </font> <font color="green">Biden is praying.</font>
@@ -107,7 +113,20 @@ while i <= 1000:
 
 ----
 
-可以當作`if`的condition就可以當作`while`的condition
+### 順帶一提..
+
+`i += 1` 是甚麼意思？
+
+其實就是 `i = i + 1`
+
+[可以參考這裡](https://stackoverflow.com/questions/4841436/what-exactly-does-do-in-python)
+
+可以延伸至 `i -= 1` , `i *= 1` , `i /= 1` , `i %= 1` 等
+
+----
+
+`while`的condition可以是各種boolean expression
+(跟`if`的condition一樣)
 除了用`i<=1000`之外，也可以用boolean variable或是boolean constant
 
 ```python=
@@ -164,7 +183,7 @@ while num > x:
 
 ----
 
-### 2.5 while loop 呼吸
+### 2.5 while loop 
 
 [一之型 印三角形](https://neoj.sprout.tw/problem/3020/)
 
@@ -176,6 +195,38 @@ while num > x:
 ----
 
 ### 九九乘法表
+
+先有這個
+```python=
+i, j = 1 , 1
+while j <= 9:
+    print(f"{i} * {j} = {i*j}", end ='\t')
+    j += 1
+print('\n')
+```
+[python 字串格式化](https://blog.louie.lu/2017/08/08/outdate-python-string-format-and-fstring/)
+
+----
+
+再有這個
+```python=
+i, j = 1, 1
+while i <= 9:
+    """
+    print i * 1 , i * 2 .... i * 9
+    """
+    print('\n')
+    i += 1
+    j = 1   
+```
+
+#### 小討論：
+第8行在做什麼？
+
+----
+
+融合！！
+
 ```python=
 i, j = 1, 1
 while i <= 9:
@@ -190,11 +241,9 @@ while i <= 9:
 內層迴圈執行完畢後，
 再執行外層迴圈，持續到外層迴圈停止
 
-[python 字串格式化](https://blog.louie.lu/2017/08/08/outdate-python-string-format-and-fstring/)
-
 ----
 
-### 4. while-else
+### 4. while-else (python 的神秘語法)
 
 ```python=
 i = 0
@@ -228,7 +277,7 @@ while True:
         print("Too small")
     else:
         print(f"Correct! the key is {key}")
-        break;
+        break
 ```
 
 #### 要點
@@ -248,7 +297,7 @@ while True:
         print("Too small")
     else:
         print(f"Correct! the key is {key}")
-        break;
+        break
 else:
     print("finished")       
 ```
@@ -264,15 +313,14 @@ else:
 count = 0
 letMeWatch = False
 
-while letMeWatch is False:
+while not letMeWatch :
     if count < 3:
         count += 1
         print("No!!!")
         continue
-    else:
-        print("take of glasses")
-        print("punch!")
-        letMeWatch = True
+    print("take of glasses")
+    print("punch!")
+    letMeWatch = True
 ```
 
 #### 要點
@@ -297,7 +345,7 @@ print(sc)
 
 ----
 
-使用break或continue只會影響正在執行中的迴圈
+使用break或continue只會影響一層迴圈
 如果break內層迴圈，外層迴圈依然會執行
 
 ----
@@ -316,6 +364,8 @@ print(sc)
 * 開始覺得自己不會寫程式
 
 ----
+
+如果你沒有終結迴圈的方式...
 
 ![](https://i.pinimg.com/originals/f5/d3/d2/f5d3d20efd7519d9e01fc88b0c7fc7b0.jpg)
 
