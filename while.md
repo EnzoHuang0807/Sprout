@@ -260,7 +260,7 @@ else:
 
 ----
 
-### 如果覺得剛剛的東西是邪教的話..
+#### 如果覺得剛剛的東西是邪教的話..
 
 ```python=
 flag = False
@@ -398,6 +398,7 @@ print(sc)
 1. [3087 差太多了吧](https://neoj.sprout.tw/problem/3087/)
 2. [3019 來印三角形吧](https://neoj.sprout.tw/problem/3019/)
 3. [3031 修羅道之怪異的範圍](https://neoj.sprout.tw/problem/3031/)
+
 ---
 
 ## Thank you :+1: 
