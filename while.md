@@ -258,6 +258,26 @@ else:
 * 當執行到while的condition且結果為false時，執行else
 * 類似if-else的關係
 
+----
+
+### 如果覺得剛剛的東西是邪教的話..
+
+```python=
+flag = False
+i = 0
+while i < 6:
+    print(i)
+    i += 2
+    if i >= 6:
+        flag = True
+if flag:
+    print("finished")
+```
+
+#### 要點
+
+* 使用flag做控制是較為傳統且普遍的做法
+
 ---
 
 ## break & continue
