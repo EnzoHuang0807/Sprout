@@ -3,6 +3,8 @@
 slideOptions:        
   theme: solarized 
   transition: 'sky' 
+  spotlight:
+    enabled: true
   
 ---
 
@@ -78,7 +80,7 @@ while i <= 1000:
 要是沒控制好，可能會產生無限迴圈
 此時，按⏹️終止你的程式
 ![](https://i.imgur.com/UKSrvUU.png)
-![](https://ahseeit.com//king-include/uploads/2021/01/135621505_3490110337777630_2014426057131565060_n-5779826117.jpg =500x500)
+![](https://ahseeit.com//king-include/uploads/2021/01/135621505_3490110337777630_2014426057131565060_n-5779826117.jpg =400x400)
 
 ----
 
