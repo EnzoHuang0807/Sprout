@@ -173,6 +173,10 @@ pip install yt-dlp
 
 ----
 
+等等會用到的 code [在這裡](https://github.com/EnzoHuang0807/Sprout/blob/main/DiscordBot.ipynb)
+
+----
+
 ##### 在 python 裡面，所有的東西都是物件，函式也不例外
 ##### 嘗試把一個function當作另一個function的參數
 
